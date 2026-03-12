@@ -5,7 +5,6 @@ from bank_account import BankAccount, InsufficientFunds
 class TestBankAccount(unittest.TestCase):
 
     def setUp(self):
-        """Створюємо екземпляри рахунків перед кожним тестом"""
         self.account = BankAccount(initial_balance=100)
         self.other_account = BankAccount(initial_balance=50)
 
